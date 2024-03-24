@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.dangki, .dangnhap {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.dangki:hover, .dangnhap:hover {
+    color: #fff;
+}
+.champion-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.champion-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.champion-name {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.champion-role {
+    font-size: 18px;
+    text-align: center;
+    color: #007bff;
+}
+
+.champion-description {
+    font-size: 16px;
+}
+
+.champion-skill {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.champion-skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.champion-skills li {
+    font-size: 16px;
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<link href="dangnhap.css" rel="stylesheet">
+<meta charset="utf-8">
+<title>Đăng nhập</title>
+</head>
+
+<body>
+<div><strong>Chào mừng Nhóm 13</strong></div>
+<div>Bạn chưa có tài khoản ? <a href="dangki.html">Đăng ký</a> ngay.</div>
+<br>
+<br>
+  <br>
+    <form action="bai tap lon.html" method="post" name="dangky" ">
+    Tên đăng nhập :<br>
+    <label for="Tendangnhap"></label>
+    <input name="Tendangnhap" type="text" id="Tendangnhap" size="20" >
+    <br>
+    Mật khẩu : <br>
+    <label for="MatKhau"></label>
+    <input name="MatKhau" type="password" id="MatKhau" size="20">
+    <br>
+</div>
+<br>
+<br>
+  <input type="button" value="Đăng nhập"  onclick="dieu_huong()"/>
+  </form>
+  <script>
+    function dieu_huong(){
+      location.assign("http://127.0.0.1:5500/bai%20tap%20lon/bai%20tap%20lon.html");
+    }
+</script>
+</body>
+</html>

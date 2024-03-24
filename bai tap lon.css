@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover::after
+{
+    content: '';
+    height: 3px;
+    width:0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition:  0.5s ease-in-out;
+}
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.dangki, .dangnhap {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.dangki:hover, .dangnhap:hover {
+    color: #fff;
+}
+.LOL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    flex: 1;
+    max-width: 40%;
+    height: auto;
+}
+ .valorant {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    img {
+        flex: 1;
+        max-width: 40%;
+        height: auto;
+    }
